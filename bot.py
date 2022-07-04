@@ -20,6 +20,7 @@ SOFTWARE.
 
 import discord
 from discord.ext import commands
+import asyncpg
 
 class TomanBot(commands.Bot):
     """Subclass of `commands.Bot` (This will be our Toman Helper Bot)"""
