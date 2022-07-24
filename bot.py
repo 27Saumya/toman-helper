@@ -42,4 +42,4 @@ class TomanBot(commands.Bot):
 
 bot = TomanBot()
 
-bot.run("TOKEN")
+bot.run(TOKEN)
