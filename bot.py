@@ -21,6 +21,7 @@ SOFTWARE.
 import discord
 from discord.ext import commands
 import asyncpg
+from secret import TOKEN
 
 class TomanBot(commands.Bot):
     """Subclass of `commands.Bot` (This will be our Toman Helper Bot)"""
